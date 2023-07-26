@@ -4,12 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.kafka.annotation.EnableKafka;
 
-@EnableKafka
 @SpringBootApplication
-public class SpringBootKafkaProducerApplication {
+public class SpringBootKafkaConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootKafkaProducerApplication.class, args);
+		SpringApplication.run(SpringBootKafkaConsumerApplication.class, args);
 	}
 
 }
